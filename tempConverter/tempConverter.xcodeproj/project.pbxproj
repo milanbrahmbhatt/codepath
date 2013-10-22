@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5648E66E18064B3C00B02600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5648E66D18064B3C00B02600 /* Main.storyboard */; };
 		56A4EA6C1805394300C20075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EA6B1805394300C20075 /* Foundation.framework */; };
 		56A4EA6E1805394300C20075 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EA6D1805394300C20075 /* CoreGraphics.framework */; };
 		56A4EA701805394400C20075 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A4EA6F1805394400C20075 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5648E66D18064B3C00B02600 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		56A4EA681805394300C20075 /* tempConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A4EA6B1805394300C20075 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56A4EA6D1805394300C20075 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 		56A4EA711805394400C20075 /* tempConverter */ = {
 			isa = PBXGroup;
 			children = (
+				5648E66D18064B3C00B02600 /* Main.storyboard */,
 				56A4EA7A1805394400C20075 /* AppDelegate.h */,
 				56A4EA7B1805394400C20075 /* AppDelegate.m */,
 				56A4EA7D1805394400C20075 /* Images.xcassets */,
@@ -230,6 +233,7 @@
 				56A4EA761805394400C20075 /* InfoPlist.strings in Resources */,
 				56A4EA9E1805397700C20075 /* TempViewController.xib in Resources */,
 				56A4EA7E1805394400C20075 /* Images.xcassets in Resources */,
+				5648E66E18064B3C00B02600 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +461,7 @@
 				56A4EA961805394400C20075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56A4EA971805394400C20075 /* Build configuration list for PBXNativeTarget "tempConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				56A4EA991805394400C20075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

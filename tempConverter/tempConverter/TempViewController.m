@@ -55,11 +55,13 @@
     // 0 = Fahrenheit, 1 = Celcius
     if (self.tempControl.selectedSegmentIndex == 0) {
         self.inputUnit.text = @"°F";
-        self.resultLabel.text = @"0.0 °C";
+        self.resultLabel.text = @"0.0  °C";
     } else {
         self.inputUnit.text = @"°C";
         self.resultLabel.text = @"0.0 °F";
     }
+    
+    self.inputText.delegate = self;
 }
 
 - (void)convert {

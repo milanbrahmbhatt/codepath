@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BECEE267-54B2-4983-8B8F-BD0E8764A5F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>todolist2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9395EFF-0E1D-47E5-9B1D-79C2A76A3FA6</key>
+		<string>https://github.com/milanbrahmbhatt/codepath.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>todolist2/todolist2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9395EFF-0E1D-47E5-9B1D-79C2A76A3FA6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/milanbrahmbhatt/codepath.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9395EFF-0E1D-47E5-9B1D-79C2A76A3FA6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9395EFF-0E1D-47E5-9B1D-79C2A76A3FA6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>codepath</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TempViewController : UIViewController
+@interface TempViewController : UIViewController<UITextFieldDelegate>
 
 @end
