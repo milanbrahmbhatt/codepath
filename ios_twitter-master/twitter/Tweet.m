@@ -19,7 +19,7 @@
     NSString *createdAt = [self.data valueOrNilForKeyPath:@"created_at"];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
-    dateFormatter.dateFormat = @"EEE MMM d h:m:s +0000 yyyy";
+    dateFormatter.dateFormat = @"EEE MMM d H:m:s +0000 yyyy";
     NSDate *date = [dateFormatter dateFromString:createdAt];
     return [date timeAgo];
 }
