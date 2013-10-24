@@ -9,7 +9,7 @@
 #import "ComposeVC.h"
 
 @interface ComposeVC ()
-@property (weak, nonatomic) IBOutlet UITextView *tweetContent;
+
 
 @end
 
@@ -45,6 +45,7 @@
 {
     //tweet submission code.
     [[TwitterClient instance] updateStatus:self.tweetContent.text success:^(AFHTTPRequestOperation *operation, id response) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"UserDidComposeTweet" object:nil];
         NSLog(@"%@", response);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%@", error);

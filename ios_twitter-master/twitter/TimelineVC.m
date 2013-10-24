@@ -28,8 +28,10 @@
     self = [super initWithStyle:style];
     if (self) {
         self.title = @"Twitter";
-        
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reload) name:@"UserDidComposeTweet" object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reload) name:@"UserDidRetweet" object:nil];
         [self reload];
+
     }
     return self;
 }
@@ -171,7 +173,9 @@
     
     cvc.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Submit" style:UIBarButtonItemStylePlain target:cvc action:@selector(submit)];
     
-    [self presentViewController:nvc animated:YES completion:nil];
+    [self presentViewController:nvc animated:YES completion:^(void){
+        [cvc.tweetContent becomeFirstResponder];
+    }];
 }
 
 - (void)reload {

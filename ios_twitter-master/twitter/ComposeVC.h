@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ComposeVC : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *tweetContent;
 - (void)dismiss;
 - (void)submit;
 @end
